@@ -4,9 +4,9 @@ Open-source application to share good content between people who are interested 
 ---------------------------------------------------
 
 # API Documentation
-[click here](http://goldencontent.docs.apiary.io)
+[goldencontent.docs.apiary.io](http://goldencontent.docs.apiary.io)
 
 ---------------------------------------------------
 
 # Deployment
-[click here](https://golden-content.herokuapp.com/)
+[golden-content.herokuapp.com](https://golden-content.herokuapp.com)
