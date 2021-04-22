@@ -11,26 +11,73 @@
   </head>
   <body>
     <header>
-    <div class="header-container">
-      <h1 class="nav-logo">Golden content</h1>
-      <form action="" class="sign-in-form">
-        <input class="text-input" type="text" name="user-name" placeholder="  username or email" required>
-        <input class="text-input" type="  password" name="password" placeholder=" password" required> 
-        <input class="btn btn-gold" type="submit" name="sign-in"value="Sign in">
+        <h2 class="nav-logo">Golden content</h2>
+    </header> 
+    <main>
+      <div class="container">
+        <div class="social">
+          <h2 class="slogan">Everything that glitters is not gold
+          </h2>
+            <img class="social-img" src="images/social.svg"alt="">
+        </div>
+      </div>
+    <div class="form">
+      <div class="sign-in">
+        <form action="" class="sign-in-form">
+          <div class="username">
+            <label for="username">Username or Email</label>
+            <input class="text-input " type="text" name="username" placeholder="  username or email" required>
+            </div>
+          <div class="password">
+            <label for="password">Password</label>
+            <input class="text-input" type="password" name="password" placeholder=" password" required> 
+          </div>
+        </form>
         <div class="forgot-password">
           <a href="#" >Forgot Password?</a>
         </div>
+        <input class="btn btn-blue sign-in-btn" type="submit" name="sign-in"value="Sign in">
+        
         <div class="sign-via">
           <p>or sign in via:</p>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-google"></a>
+          <a  class="social-links" href="#" ><i class="fa fa-facebook"></i></a>
+          <a class="social-links" href="#" class="fa fa-twitter"><i class="fa fa-twitter"></i></a>
+          <a class="social-links" href="#" class="fa fa-google"><i class="fa fa-google"></i></a>
         </div>
         </div>
-      </form>
-    </header>
-    <main>
-      
+        <p class="or">
+          OR
+        </p>
+        <div class="sign-up">
+          <form action="" class="sign-up-form">
+            <div class="username-password">
+              <label for="Enter-username">Username</label>
+              <input  class="text-input"  type="text"         id="Enter-username" placeholder="  Enter username
+              " required>
+              <label for="password">Password</label>
+              <input class="text-input" type="password" id="password" name="password"  minlength="8" placeholder=" Password">
+              <label for="Reenter-password">Reenter-password</label>
+              <input id="Reenter-password" class="text-input" type="password" name="password" placeholder=" Reenter-password" required>
+            </div>
+            <div class="email-birth">
+              <label for="text-input">Email</label>
+            <input class="text-input" type="text"          name="user-name" placeholder=" Enter your email" required>
+            <label for="Birthdate">Date of birth</label>
+            <input  class="text-input"  type="text"          id="Birthdate" placeholder="  Date of birth
+            " required>
+            </div>
+          </form>
+          <input class="btn btn-gold sign-up-btn" type="submit" name="sign-in"value="Sign up">
+
+          <div class="sign-via">
+            <p>or sign up with:</p>
+            <a  class="social-links" href="#" ><i class="fa fa-facebook"></i></a>
+            <a class="social-links" href="#" class="fa fa-twitter"><i class="fa fa-twitter"></i></a>
+            <a class="social-links" href="#" class="fa fa-google"><i class="fa fa-google"></i></a>
+          </div>
+        </div>    
+    </div> 
+    
     </main>
   </body>
 </html>
