@@ -10,4 +10,4 @@ Open-source application to share good content between people who are interested 
 
 # Deployment
 [golden-content.herokuapp.com](https://golden-content.herokuapp.com)
-.
+
